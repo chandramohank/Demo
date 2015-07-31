@@ -1,0 +1,9 @@
+D:\Demo\AngularDemo\AngularDemo.Data\obj\Debug\AngularDemo.Data.csprojResolveAssemblyReference.cache
+D:\Demo\AngularDemo\AngularDemo.Data\bin\Debug\AngularDemo.Data.dll
+D:\Demo\AngularDemo\AngularDemo.Data\bin\Debug\AngularDemo.Data.pdb
+D:\Demo\AngularDemo\AngularDemo.Data\bin\Debug\AngularDemo.Entities.dll
+D:\Demo\AngularDemo\AngularDemo.Data\bin\Debug\Newtonsoft.Json.dll
+D:\Demo\AngularDemo\AngularDemo.Data\bin\Debug\AngularDemo.Entities.pdb
+D:\Demo\AngularDemo\AngularDemo.Data\bin\Debug\Newtonsoft.Json.xml
+D:\Demo\AngularDemo\AngularDemo.Data\obj\Debug\AngularDemo.Data.dll
+D:\Demo\AngularDemo\AngularDemo.Data\obj\Debug\AngularDemo.Data.pdb

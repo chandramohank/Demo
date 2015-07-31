@@ -1,0 +1,5 @@
+D:\Demo\AngularDemo\AngularDemo.Entities\bin\Debug\AngularDemo.Entities.dll
+D:\Demo\AngularDemo\AngularDemo.Entities\bin\Debug\AngularDemo.Entities.pdb
+D:\Demo\AngularDemo\AngularDemo.Entities\obj\Debug\AngularDemo.Entities.csprojResolveAssemblyReference.cache
+D:\Demo\AngularDemo\AngularDemo.Entities\obj\Debug\AngularDemo.Entities.dll
+D:\Demo\AngularDemo\AngularDemo.Entities\obj\Debug\AngularDemo.Entities.pdb
