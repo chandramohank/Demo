@@ -6,11 +6,11 @@
 }
 
 <h2>Employee Dashboard</h2>
-<div class="container-fluid">
-    @*<a href="#!/EmplyeeDashBoard" class="btn-link">Employee Dashboard</a>
-    <a href="#!/addEmployee" class="btn-link">Add Employee</a>*@
+<div ng-controller="EmployeeCtrl" class="container-fluid">
+    <a href="/EmplyeeDashBoard" class="btn-link">Employee Dashboard</a>
+    <a href="/home/addEmployee" class="btn-link">Add Employee</a>
     <div>
-        <div ng-view ></div>
+        <div data-ng-view></div>
     </div>
         @*<label>Search: <input ng-model="searchText"></label>*@
         @*<div class="container-fluid table table-striped table-bordered table-condensed" ng-repeat="emp in employees">
@@ -65,8 +65,6 @@
 </div>
 <script src="~/Scripts/angular.js"></script>
 <script src="~/Scripts/angular-route.js"></script>
-@*<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.min.js"></script>*@
 @*<script src="~/Scripts/ui-bootstrap-tpls-0.13.2.min.js"></script>*@
 <script src="~/app/app.js"></script>
 <script src="~/app/services/employeeService.js"></script>

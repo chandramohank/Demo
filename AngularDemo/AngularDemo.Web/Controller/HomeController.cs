@@ -14,5 +14,14 @@ namespace AngularDemo.Web.Controller
         {
             return View();
         }
+
+        public ActionResult EmplyeeDashBoard()
+        {
+            return PartialView("EmplyeeDashBoard");
+        }
+        public ActionResult addEmployee()
+        {
+            return PartialView("addEmployee");
+        }
 	}
 }
