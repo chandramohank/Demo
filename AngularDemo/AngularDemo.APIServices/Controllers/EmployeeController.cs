@@ -14,7 +14,14 @@ namespace AngularDemo.APIServices.Controllers
         EmployeeRepository _employeeRepository = new EmployeeRepository();
         public List<Employee> GetEmployees()
         {
+                        
+            
             return _employeeRepository.GetEmployees();
+        }
+
+        public Employee getEmployee(string id)
+        {
+            return _employeeRepository.getEmployee(id);
         }
     }
 }

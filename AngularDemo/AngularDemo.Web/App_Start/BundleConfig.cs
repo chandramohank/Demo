@@ -27,7 +27,9 @@ namespace AngularDemo.Web
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
                       "~/Content/bootstrap-responsive.css",
-                      "~/Content/metro-bootstrap.css"));
+                      "~/Content/metro-bootstrap.css",
+                       "~/Content/customtheme.css",
+                      "~/Content/breeze.directives.css"));
         }
     }
 }

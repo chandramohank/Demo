@@ -23,5 +23,9 @@ namespace AngularDemo.Web.Controller
         {
             return PartialView("addEmployee");
         }
+        public ActionResult editEmployee()
+        {
+            return PartialView("editEmployee");
+        }
 	}
 }

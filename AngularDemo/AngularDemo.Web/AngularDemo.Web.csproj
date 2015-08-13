@@ -97,11 +97,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\common\appVariables.js" />
+    <Content Include="app\common\Formater.js" />
+    <Content Include="app\controllers\employeeDetail.js" />
     <Content Include="app\directives\employeeDirective.js" />
     <Content Include="app\EmployeeFilter.js" />
+    <Content Include="app\layout\shell.html" />
+    <Content Include="app\layout\shell.js" />
+    <Content Include="app\layout\sidebar.html" />
+    <Content Include="app\layout\sidebar.js" />
+    <Content Include="app\layout\topnav.html" />
+    <Content Include="app\layout\widgetheader.html" />
+    <Content Include="app\services\directives.js" />
     <Content Include="app\services\employeeService.js" />
+    <Content Include="Content\breeze.directives.css" />
+    <Content Include="Content\customtheme.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\metro-bootstrap.css" />
     <Content Include="Content\metro-bootstrap.min.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Images\Employee\image1.jpg" />
     <Content Include="Images\Employee\image2.jpg" />
     <Content Include="packages.config" />
@@ -115,6 +130,11 @@
     <Content Include="Views\index.cshtml" />
     <Content Include="Views\Home\addEmployee.cshtml" />
     <Content Include="Views\Home\EmplyeeDashBoard.cshtml" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="Views\Home\editEmployee.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

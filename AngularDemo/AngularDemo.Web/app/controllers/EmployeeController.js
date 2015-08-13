@@ -21,7 +21,7 @@
     var app = angular.module('EmployeeModule');
     app.controller("EmployeeCtrl", getEmployeeData);
 
-    function getEmployeeData($scope, employeeService) {
+    function getEmployeeData($scope, $location,employeeService) {
         var promise = employeeService.get();
         promise.then(
             function (response) {
@@ -31,7 +31,22 @@
                 alert('Failed: ' + response);
             }
          );
-        getEmployeeData.$inject = ['$scope', 'employeeService'];
+
+        $scope.editEmployee = function (emp) {
+            var empId = emp._id;           
+            $location.path('/employee/' + empId);
+
+        };
+        $scope.submitForm = function () {
+
+            // check to make sure the form is completely valid
+            if ($scope.employeeForm.$valid) {
+                alert('our form is amazing');
+            }
+
+        };
+
+        getEmployeeData.$inject = ['$scope','$location', 'employeeService'];
     }
 }
 ());

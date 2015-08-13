@@ -31,6 +31,11 @@
             templateUrl: '/Home/addEmployee',
             controller: 'EmployeeCtrl'
         });
+        $routeProvider.when('/employee/:id', {
+            templateUrl: '/Home/editEmployee',
+            controller: 'employeeDetail'
+        });
+
         $routeProvider.otherwise({
             redirectTo: '/'
         });

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AngularDemo.Entities.Models
 {
-    public class Friends
+    public class friends
     {
         public int id { get; set; }
         public string name { get; set; }
