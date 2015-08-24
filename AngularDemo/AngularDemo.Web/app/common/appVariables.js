@@ -12,5 +12,8 @@
         updateEmployeeURL: 'https://api.mongolab.com/api/1/databases/{0}/collections/{1}/{2}?apiKey={3}',
         getEmployeeURL: 'https://api.mongolab.com/api/1/databases/{0}/collections/{1}?q={"_id":"{2}"}&fo=true&apiKey={3}',
         deleteEmployeeURL: 'https://api.mongolab.com/api/1/databases/{0}/collections/{1}/{2}?apiKey={3}',
+
+        //AdventuresDB API URLs
+        GetPersonsURL: 'http://localhost:64059/api/Person/Get'
     });
 }());

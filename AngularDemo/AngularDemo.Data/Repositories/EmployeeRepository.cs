@@ -15,10 +15,10 @@ namespace AngularDemo.Data.Repositories
 {
     public class EmployeeRepository
     {
-        public List<Employee> GetEmployees()
+        public List<AngularDemo.Entities.Models.Employee> GetEmployees()
         {
-            Employee emp = new Employee();
-            var empList = new List<Employee>() { };           
+            AngularDemo.Entities.Models.Employee emp = new AngularDemo.Entities.Models.Employee();
+            var empList = new List<AngularDemo.Entities.Models.Employee>() { };           
             var strFileName="datasource.txt";          
             var stream = GetEmbeddedResourceStream(strFileName);
             StringBuilder sb = new StringBuilder();
@@ -33,13 +33,13 @@ namespace AngularDemo.Data.Repositories
                     }
                 }
             }
-            empList=JsonConvert.DeserializeObject<List<Employee>>(sb.ToString());           
+            empList = JsonConvert.DeserializeObject<List<AngularDemo.Entities.Models.Employee>>(sb.ToString());           
             return empList;
         }
 
-        public Employee getEmployee(string id)
+        public AngularDemo.Entities.Models.Employee getEmployee(string id)
         {
-            List<Employee> empList = GetEmployees();
+            List<AngularDemo.Entities.Models.Employee> empList = GetEmployees();
             var employee = empList.Find(x => x._id == id);
             return employee;
         }

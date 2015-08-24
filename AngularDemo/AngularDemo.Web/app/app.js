@@ -35,6 +35,10 @@
             templateUrl: '/Home/editEmployee',
             controller: 'employeeDetail'
         });
+        $routeProvider.when('/PersonDashBoard', {
+            templateUrl: '/Home/PersonDashboard',
+            controller: 'personCtrl'
+        });
 
         $routeProvider.otherwise({
             redirectTo: '/'
