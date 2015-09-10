@@ -19,3 +19,15 @@ D:\AngularDemo2\AngularDemo.Data\bin\Debug\Newtonsoft.Json.xml
 D:\AngularDemo2\AngularDemo.Data\obj\Debug\AngularDemo.Data.csprojResolveAssemblyReference.cache
 D:\AngularDemo2\AngularDemo.Data\obj\Debug\AngularDemo.Data.dll
 D:\AngularDemo2\AngularDemo.Data\obj\Debug\AngularDemo.Data.pdb
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Data\bin\Debug\AngularDemo.Data.dll.config
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Data\bin\Debug\AngularDemo.Data.dll
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Data\bin\Debug\AngularDemo.Data.pdb
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Data\bin\Debug\AngularDemo.Entities.dll
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Data\bin\Debug\EntityFramework.dll
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Data\bin\Debug\Newtonsoft.Json.dll
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Data\bin\Debug\AngularDemo.Entities.pdb
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Data\bin\Debug\EntityFramework.xml
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Data\bin\Debug\Newtonsoft.Json.xml
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Data\obj\Debug\AngularDemo.Data.csprojResolveAssemblyReference.cache
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Data\obj\Debug\AngularDemo.Data.dll
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Data\obj\Debug\AngularDemo.Data.pdb

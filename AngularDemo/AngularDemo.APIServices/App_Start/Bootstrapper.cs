@@ -2,14 +2,12 @@
 using AngularDemo.Data.Repositories;
 using AngularDemo.Data.Repositories.AdventuresDemo;
 using Autofac;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using Autofac.Integration.WebApi;
 using System.Web.Http;
 using Services;
 using AngularDemo.APIServices.Mappers;
+using System.Web.Http.Dispatcher;
+using AngularDemo.APIServices.DependencyResolution;
 
 namespace AngularDemo.APIServices.App_Start
 {
@@ -17,16 +15,24 @@ namespace AngularDemo.APIServices.App_Start
     {
         public static void Configure()
         {
-            ConfigureAutofacContainer();
+            //ConfigureAutofacContainer();
+            ConfigureStructureMapContainer();
             AutoMapperConfiguration.Configure();
         }
 
         public static void ConfigureAutofacContainer()
         {
             var webApiContainerBuilder = new ContainerBuilder();
-            ConfigureWebApiContainer(webApiContainerBuilder);
+            ConfigureWebApiContainer(webApiContainerBuilder);           
         }
-
+        public static void ConfigureStructureMapContainer()
+        {
+            HttpConfiguration config = GlobalConfiguration.Configuration;
+            StructureMap.IContainer container = new StructureMap.Container(c => c.AddRegistry<DefaultRegistry>());
+            config.Services.Replace(
+                typeof(IHttpControllerActivator),
+                new StructureMapWebApiControllerActivator(container));            
+        }
         public static void ConfigureWebApiContainer(ContainerBuilder containerBuilder)
         {
             containerBuilder.RegisterType<DatabaseFactory>().As<IDatabaseFactory>();
