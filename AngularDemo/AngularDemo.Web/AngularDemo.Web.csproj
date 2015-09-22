@@ -152,7 +152,9 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Images\Employee\image1.jpg" />
     <Content Include="Images\Employee\image2.jpg" />
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Content\metro-bootstrap.css.map" />
     <Content Include="Views\Html\addEmployee.html">
       <BrowseToURL>~/Html/addEmployee</BrowseToURL>

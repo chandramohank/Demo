@@ -57,6 +57,10 @@
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="PostSharp, Version=4.1.23.0, Culture=neutral, PublicKeyToken=b13fd38b8f9c99d7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\AngularDemo.Shared\bin\Debug\PostSharp.dll</HintPath>
+    </Reference>
     <Reference Include="StructureMap, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\structuremap.3.0.0.108\lib\net40\StructureMap.dll</HintPath>
       <Private>True</Private>
@@ -104,12 +108,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\Bootstrapper.cs" />
     <Compile Include="App_Start\StructuremapWebApi.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\EmployeeController.cs" />
     <Compile Include="Controllers\PersonController.cs" />
     <Compile Include="DependencyResolution\DefaultRegistry.cs" />
@@ -143,7 +150,9 @@
     <Compile Include="ViewModels\ShiftViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -163,6 +172,10 @@
     <ProjectReference Include="..\AngularDemo.Entities\AngularDemo.Entities.csproj">
       <Project>{b8801f91-41cc-461a-bf13-856d9e6880eb}</Project>
       <Name>AngularDemo.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AngularDemo.Shared\AngularDemo.Shared.csproj">
+      <Project>{41ee2449-e54a-45aa-91e3-053e17408c91}</Project>
+      <Name>AngularDemo.Shared</Name>
     </ProjectReference>
     <ProjectReference Include="..\Services\Services.csproj">
       <Project>{42f4dce0-9059-4c1e-99d7-1c4568dccbd4}</Project>
