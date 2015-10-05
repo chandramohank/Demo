@@ -1,0 +1,7 @@
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Shared\bin\Debug\PostSharp.dll
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Shared\bin\Debug\PostSharp.xml
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Shared\obj\Debug\AngularDemo.Shared.dll
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Shared\obj\Debug\AngularDemo.Shared.pdb
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Shared\obj\Debug\AngularDemo.Shared.csprojResolveAssemblyReference.cache
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Shared\bin\Debug\AngularDemo.Shared.dll
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Shared\bin\Debug\AngularDemo.Shared.pdb

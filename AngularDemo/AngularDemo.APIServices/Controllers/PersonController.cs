@@ -1,28 +1,22 @@
 ﻿using AngularDemo.APIServices.ViewModels;
-using AngularDemo.Data;
-using AngularDemo.Data.Repositories.AdventuresDemo;
+using AngularDemo.Shared;
 using AutoMapper;
 using Services;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 
 namespace AngularDemo.APIServices.Controllers
 {
-    public class PersonController : ApiController
+    public class PersonController : BaseController
     {
         IDashboardService dashboardService;
         public PersonController(IDashboardService dashboardService)
-        
-        
         {
             this.dashboardService = dashboardService;
         }
 
         // GET api/<controller>
+        [MethodAspect]
         public IEnumerable<PersonViewModel> Get()
         {
             var persons = dashboardService.GetPersons();
