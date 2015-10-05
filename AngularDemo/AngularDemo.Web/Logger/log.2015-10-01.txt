@@ -1,0 +1,18 @@
+
+Date[2015-10-01 15:08:22,593] ThreadID[13] Level[INFO ] Logger[AngularDemo.Shared.Logging]] - Called Entry Get
+
+Date[2015-10-01 15:08:24,598] ThreadID[13] Level[INFO ] Logger[AngularDemo.Shared.Logging]] - Called sucess Get
+
+Date[2015-10-01 15:08:24,599] ThreadID[13] Level[INFO ] Logger[AngularDemo.Shared.Logging]] - Get Executed in 2012 seconds
+
+Date[2015-10-01 15:08:47,802] ThreadID[15] Level[INFO ] Logger[AngularDemo.Shared.Logging]] - Called Entry Get
+
+Date[2015-10-01 15:08:48,179] ThreadID[15] Level[INFO ] Logger[AngularDemo.Shared.Logging]] - Called sucess Get
+
+Date[2015-10-01 15:08:48,179] ThreadID[15] Level[INFO ] Logger[AngularDemo.Shared.Logging]] - Get Executed in 377 seconds
+
+Date[2015-10-01 15:09:05,263] ThreadID[8] Level[INFO ] Logger[AngularDemo.Shared.Logging]] - Called Entry Getsync
+
+Date[2015-10-01 15:09:05,303] ThreadID[8] Level[INFO ] Logger[AngularDemo.Shared.Logging]] - Called sucess Getsync
+
+Date[2015-10-01 15:09:05,303] ThreadID[8] Level[INFO ] Logger[AngularDemo.Shared.Logging]] - Getsync Executed in 40 seconds
