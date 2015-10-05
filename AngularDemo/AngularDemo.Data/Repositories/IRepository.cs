@@ -11,7 +11,6 @@ namespace AngularDemo.Data.Repositories
     {
         T GetById(int id);
         IEnumerable<T> GetAll();
-        Task<IEnumerable<T>> GetAllAsync();
         IEnumerable<T> GetMany(Expression<Func<T, bool>> where);
         T Add(T entity);
 

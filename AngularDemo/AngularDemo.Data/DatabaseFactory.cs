@@ -9,10 +9,10 @@ namespace AngularDemo.Data
 {
     public class DatabaseFactory : Disposable, IDatabaseFactory
     {
-        private AdventureWorks2012Entities dataContext;
-        public AdventureWorks2012Entities Get()
+        private AdventureWorks2008R2Entities dataContext;
+        public AdventureWorks2008R2Entities Get()
         {
-            return dataContext ?? (dataContext = new AdventureWorks2012Entities());
+            return dataContext ?? (dataContext = new AdventureWorks2008R2Entities());
         }
         protected override void DisposeCore()
         {

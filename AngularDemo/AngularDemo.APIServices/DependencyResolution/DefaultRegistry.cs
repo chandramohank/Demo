@@ -35,8 +35,7 @@ namespace AngularDemo.APIServices.DependencyResolution {
             For<IDatabaseFactory>().Use<DatabaseFactory>();
             For<IUnitOfWork>().Use<UnitOfWork>();
             For<IDashboardRepository>().Use<DashboardRepository>();
-            For<IDashboardService>().Use<DashboardService>();
-            For<IEmployeeRepository>().Use<EmployeeRepository>();      
+            For<IDashboardService>().Use<DashboardService>();      
         }
 
         #endregion

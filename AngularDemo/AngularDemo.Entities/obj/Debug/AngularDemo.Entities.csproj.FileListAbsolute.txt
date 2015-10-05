@@ -15,9 +15,3 @@ F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularD
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Entities\obj\Debug\AngularDemo.Entities.csprojResolveAssemblyReference.cache
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Entities\obj\Debug\AngularDemo.Entities.dll
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.Entities\obj\Debug\AngularDemo.Entities.pdb
-D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.Entities\bin\Debug\AngularDemo.Entities.dll.config
-D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.Entities\bin\Debug\AngularDemo.Entities.dll
-D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.Entities\bin\Debug\AngularDemo.Entities.pdb
-D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.Entities\obj\Debug\AngularDemo.Entities.dll
-D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.Entities\obj\Debug\AngularDemo.Entities.pdb
-D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.Entities\obj\Debug\AngularDemo.Entities.csprojResolveAssemblyReference.cache

@@ -22,9 +22,5 @@ namespace Services
         {
             return dashboardRepository.GetAll();
         }
-        public async Task<IEnumerable<Person>> GetPersonsAsynch()
-        {
-            return await dashboardRepository.GetAllAsync();
-        }
     }
 }

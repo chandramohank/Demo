@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="AdventureWorks2012Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+      <Schema Namespace="AdventureWorks2008R2Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="Department">
           <Key>
             <PropertyRef Name="DepartmentID" />
@@ -15,7 +15,7 @@
           <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
         </EntityType>
         <!--Errors Found During Generation:
-warning 6005: The data type 'hierarchyid' is currently not supported for the target Entity Framework version; the column 'AdventureWorks2012.HumanResources.Employee' in the table 'OrganizationNode' was excluded.-->
+warning 6005: The data type 'hierarchyid' is currently not supported for the target Entity Framework version; the column 'AdventureWorks2008R2.HumanResources.Employee' in the table 'OrganizationNode' was excluded.-->
         <EntityType Name="Employee">
           <Key>
             <PropertyRef Name="BusinessEntityID" />
@@ -450,7 +450,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="AdventureWorks2012ModelStoreContainer">
+        <EntityContainer Name="AdventureWorks2008R2ModelStoreContainer">
           <EntitySet Name="Department" EntityType="Self.Department" Schema="HumanResources" store:Type="Tables" />
           <EntitySet Name="Employee" EntityType="Self.Employee" Schema="HumanResources" store:Type="Tables" />
           <EntitySet Name="EmployeeDepartmentHistory" EntityType="Self.EmployeeDepartmentHistory" Schema="HumanResources" store:Type="Tables" />
@@ -551,7 +551,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
     </edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
-      <Schema Namespace="AdventureWorks2012Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+      <Schema Namespace="AdventureWorks2008R2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
         <EntityType Name="Department">
           <Key>
             <PropertyRef Name="DepartmentID" />
@@ -1033,7 +1033,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <EntityContainer Name="AdventureWorks2012Entities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="AdventureWorks2008R2Entities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Departments" EntityType="Self.Department" />
           <EntitySet Name="Employees" EntityType="Self.Employee" />
           <EntitySet Name="EmployeeDepartmentHistories" EntityType="Self.EmployeeDepartmentHistory" />
@@ -1135,9 +1135,9 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="AdventureWorks2012ModelStoreContainer" CdmEntityContainer="AdventureWorks2012Entities">
+        <EntityContainerMapping StorageEntityContainer="AdventureWorks2008R2ModelStoreContainer" CdmEntityContainer="AdventureWorks2008R2Entities">
           <EntitySetMapping Name="Departments">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.Department">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.Department">
               <MappingFragment StoreEntitySet="Department">
                 <ScalarProperty Name="DepartmentID" ColumnName="DepartmentID" />
                 <ScalarProperty Name="Name" ColumnName="Name" />
@@ -1147,7 +1147,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Employees">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.Employee">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.Employee">
               <MappingFragment StoreEntitySet="Employee">
                 <ScalarProperty Name="BusinessEntityID" ColumnName="BusinessEntityID" />
                 <ScalarProperty Name="NationalIDNumber" ColumnName="NationalIDNumber" />
@@ -1168,7 +1168,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="EmployeeDepartmentHistories">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.EmployeeDepartmentHistory">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.EmployeeDepartmentHistory">
               <MappingFragment StoreEntitySet="EmployeeDepartmentHistory">
                 <ScalarProperty Name="BusinessEntityID" ColumnName="BusinessEntityID" />
                 <ScalarProperty Name="DepartmentID" ColumnName="DepartmentID" />
@@ -1180,7 +1180,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="EmployeePayHistories">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.EmployeePayHistory">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.EmployeePayHistory">
               <MappingFragment StoreEntitySet="EmployeePayHistory">
                 <ScalarProperty Name="BusinessEntityID" ColumnName="BusinessEntityID" />
                 <ScalarProperty Name="RateChangeDate" ColumnName="RateChangeDate" />
@@ -1191,7 +1191,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="JobCandidates">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.JobCandidate">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.JobCandidate">
               <MappingFragment StoreEntitySet="JobCandidate">
                 <ScalarProperty Name="JobCandidateID" ColumnName="JobCandidateID" />
                 <ScalarProperty Name="BusinessEntityID" ColumnName="BusinessEntityID" />
@@ -1201,7 +1201,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Shifts">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.Shift">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.Shift">
               <MappingFragment StoreEntitySet="Shift">
                 <ScalarProperty Name="ShiftID" ColumnName="ShiftID" />
                 <ScalarProperty Name="Name" ColumnName="Name" />
@@ -1212,7 +1212,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Addresses">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.Address">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.Address">
               <MappingFragment StoreEntitySet="Address">
                 <ScalarProperty Name="AddressID" ColumnName="AddressID" />
                 <ScalarProperty Name="AddressLine1" ColumnName="AddressLine1" />
@@ -1227,7 +1227,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="AddressTypes">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.AddressType">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.AddressType">
               <MappingFragment StoreEntitySet="AddressType">
                 <ScalarProperty Name="AddressTypeID" ColumnName="AddressTypeID" />
                 <ScalarProperty Name="Name" ColumnName="Name" />
@@ -1237,7 +1237,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="BusinessEntities">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.BusinessEntity">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.BusinessEntity">
               <MappingFragment StoreEntitySet="BusinessEntity">
                 <ScalarProperty Name="BusinessEntityID" ColumnName="BusinessEntityID" />
                 <ScalarProperty Name="rowguid" ColumnName="rowguid" />
@@ -1246,7 +1246,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="BusinessEntityAddresses">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.BusinessEntityAddress">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.BusinessEntityAddress">
               <MappingFragment StoreEntitySet="BusinessEntityAddress">
                 <ScalarProperty Name="BusinessEntityID" ColumnName="BusinessEntityID" />
                 <ScalarProperty Name="AddressID" ColumnName="AddressID" />
@@ -1257,7 +1257,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="BusinessEntityContacts">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.BusinessEntityContact">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.BusinessEntityContact">
               <MappingFragment StoreEntitySet="BusinessEntityContact">
                 <ScalarProperty Name="BusinessEntityID" ColumnName="BusinessEntityID" />
                 <ScalarProperty Name="PersonID" ColumnName="PersonID" />
@@ -1268,7 +1268,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="ContactTypes">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.ContactType">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.ContactType">
               <MappingFragment StoreEntitySet="ContactType">
                 <ScalarProperty Name="ContactTypeID" ColumnName="ContactTypeID" />
                 <ScalarProperty Name="Name" ColumnName="Name" />
@@ -1277,7 +1277,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="CountryRegions">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.CountryRegion">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.CountryRegion">
               <MappingFragment StoreEntitySet="CountryRegion">
                 <ScalarProperty Name="CountryRegionCode" ColumnName="CountryRegionCode" />
                 <ScalarProperty Name="Name" ColumnName="Name" />
@@ -1286,7 +1286,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="EmailAddresses">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.EmailAddress">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.EmailAddress">
               <MappingFragment StoreEntitySet="EmailAddress">
                 <ScalarProperty Name="BusinessEntityID" ColumnName="BusinessEntityID" />
                 <ScalarProperty Name="EmailAddressID" ColumnName="EmailAddressID" />
@@ -1297,7 +1297,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="Passwords">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.Password">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.Password">
               <MappingFragment StoreEntitySet="Password">
                 <ScalarProperty Name="BusinessEntityID" ColumnName="BusinessEntityID" />
                 <ScalarProperty Name="PasswordHash" ColumnName="PasswordHash" />
@@ -1308,7 +1308,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="People">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.Person">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.Person">
               <MappingFragment StoreEntitySet="Person">
                 <ScalarProperty Name="BusinessEntityID" ColumnName="BusinessEntityID" />
                 <ScalarProperty Name="PersonType" ColumnName="PersonType" />
@@ -1327,7 +1327,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="PersonPhones">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.PersonPhone">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.PersonPhone">
               <MappingFragment StoreEntitySet="PersonPhone">
                 <ScalarProperty Name="BusinessEntityID" ColumnName="BusinessEntityID" />
                 <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
@@ -1337,7 +1337,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="PhoneNumberTypes">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.PhoneNumberType">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.PhoneNumberType">
               <MappingFragment StoreEntitySet="PhoneNumberType">
                 <ScalarProperty Name="PhoneNumberTypeID" ColumnName="PhoneNumberTypeID" />
                 <ScalarProperty Name="Name" ColumnName="Name" />
@@ -1346,7 +1346,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
             </EntityTypeMapping>
           </EntitySetMapping>
           <EntitySetMapping Name="StateProvinces">
-            <EntityTypeMapping TypeName="AdventureWorks2012Model.StateProvince">
+            <EntityTypeMapping TypeName="AdventureWorks2008R2Model.StateProvince">
               <MappingFragment StoreEntitySet="StateProvince">
                 <ScalarProperty Name="StateProvinceID" ColumnName="StateProvinceID" />
                 <ScalarProperty Name="StateProvinceCode" ColumnName="StateProvinceCode" />
@@ -1375,7 +1375,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
         <DesignerProperty Name="ValidateOnBuild" Value="true" />
         <DesignerProperty Name="EnablePluralization" Value="true" />
         <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
-        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
         <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
       </DesignerInfoPropertySet>
     </Options>

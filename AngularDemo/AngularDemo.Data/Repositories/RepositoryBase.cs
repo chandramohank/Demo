@@ -13,7 +13,7 @@ namespace AngularDemo.Data.Repositories
 {
     public abstract class RepositoryBase<T> where T : class, new()
     {
-        private AdventureWorks2012Entities dataContext;
+        private AdventureWorks2008R2Entities dataContext;
         private readonly IDbSet<T> dbset;
         protected RepositoryBase(IDatabaseFactory databaseFactory)
         {
@@ -27,7 +27,7 @@ namespace AngularDemo.Data.Repositories
             private set;
         }
 
-        protected AdventureWorks2012Entities DataContext
+        protected AdventureWorks2008R2Entities DataContext
         {
             get { return dataContext ?? (dataContext = DatabaseFactory.Get()); }
         }
@@ -58,13 +58,8 @@ namespace AngularDemo.Data.Repositories
 
         public virtual IEnumerable<T> GetAll()
         {
-            return dbset.Take(100);
+            return dbset.Take(100).ToList();
         }
-        public virtual async Task<IEnumerable<T>> GetAllAsync()
-        {
-            return await dbset.Take(100).ToListAsync<T>();
-        }
-
         public virtual IEnumerable<T> GetMany(Expression<Func<T, bool>> where)
         {
             return dbset.Where(where).ToList();

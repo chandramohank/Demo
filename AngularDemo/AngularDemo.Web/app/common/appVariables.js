@@ -14,6 +14,6 @@
         deleteEmployeeURL: 'https://api.mongolab.com/api/1/databases/{0}/collections/{1}/{2}?apiKey={3}',
 
         //AdventuresDB API URLs
-        GetPersonsURL: 'http://localhost:64059/api/person/getsync'
+        GetPersonsURL: 'http://localhost:64059/api/Person/Get'
     });
 }());

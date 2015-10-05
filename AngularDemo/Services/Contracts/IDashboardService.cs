@@ -10,7 +10,5 @@ namespace Services
     public interface IDashboardService
     {
         IEnumerable<Person> GetPersons();
-
-        Task<IEnumerable<Person>> GetPersonsAsynch();
     }
 }
