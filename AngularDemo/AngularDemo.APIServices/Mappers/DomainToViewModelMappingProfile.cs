@@ -4,6 +4,7 @@ using AutoMapper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Web;
 
 namespace AngularDemo.APIServices.Mappers
@@ -36,6 +37,8 @@ namespace AngularDemo.APIServices.Mappers
             Mapper.CreateMap<ContactType, ContactTypeViewModel>();
             Mapper.CreateMap<Department, DepartmentViewModel>();
             Mapper.CreateMap<Shift, ShiftViewModel>();
+            //For asynch operations
+           // Mapper.CreateMap<Task< IEnumerable<Person>>,  Task<IEnumerable<PersonViewModel>>>();
         }
     }
 }

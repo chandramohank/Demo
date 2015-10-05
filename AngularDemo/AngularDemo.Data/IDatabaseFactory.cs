@@ -9,6 +9,6 @@ namespace AngularDemo.Data
 {
     public interface IDatabaseFactory:IDisposable
     {
-        AdventureWorks2008R2Entities Get();
+        AdventureWorks2012Entities Get();
     }
 }

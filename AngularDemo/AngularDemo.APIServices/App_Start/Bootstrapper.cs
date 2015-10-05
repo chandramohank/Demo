@@ -8,6 +8,7 @@ using Services;
 using AngularDemo.APIServices.Mappers;
 using System.Web.Http.Dispatcher;
 using AngularDemo.APIServices.DependencyResolution;
+using System.Web;
 
 namespace AngularDemo.APIServices.App_Start
 {
@@ -18,6 +19,7 @@ namespace AngularDemo.APIServices.App_Start
             //ConfigureAutofacContainer();
             ConfigureStructureMapContainer();
             AutoMapperConfiguration.Configure();
+            ConfigLog4Net();
         }
 
         public static void ConfigureAutofacContainer()
@@ -43,6 +45,10 @@ namespace AngularDemo.APIServices.App_Start
             containerBuilder.RegisterApiControllers(System.Reflection.Assembly.GetExecutingAssembly());
             IContainer container = containerBuilder.Build();
             GlobalConfiguration.Configuration.DependencyResolver = new AutofacWebApiDependencyResolver(container);
+        }
+        public static void ConfigLog4Net()
+        {
+            log4net.Config.XmlConfigurator.Configure(new System.IO.FileInfo(HttpContext.Current.Server.MapPath("~/log4net.config")));
         }
     }
 }

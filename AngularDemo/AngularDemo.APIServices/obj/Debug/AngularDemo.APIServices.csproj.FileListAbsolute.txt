@@ -44,16 +44,19 @@ D:\AngularDemo2\AngularDemo.APIServices\bin\Services.dll
 D:\AngularDemo2\AngularDemo.APIServices\bin\Services.pdb
 D:\AngularDemo2\AngularDemo.APIServices\bin\AutoMapper.dll
 D:\AngularDemo2\AngularDemo.APIServices\bin\AutoMapper.xml
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\obj\Debug\AngularDemo.APIServices.csprojResolveAssemblyReference.cache
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.APIServices.dll.config
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.APIServices.dll
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.APIServices.pdb
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.Data.dll
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.Entities.dll
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.Shared.dll
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\Autofac.dll
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\Autofac.Integration.WebApi.dll
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\AutoMapper.dll
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\Microsoft.Practices.ServiceLocation.dll
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\Microsoft.Web.Infrastructure.dll
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\PostSharp.dll
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\Services.dll
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\StructureMap.dll
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\StructureMap.Net4.dll
@@ -66,12 +69,14 @@ F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularD
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\Newtonsoft.Json.dll
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.Data.pdb
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.Entities.pdb
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.Shared.pdb
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\Services.pdb
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\Autofac.xml
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\Autofac.Integration.WebApi.xml
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\AutoMapper.xml
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\Microsoft.Practices.ServiceLocation.pdb
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\Microsoft.Practices.ServiceLocation.xml
+F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\PostSharp.xml
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\StructureMap.pdb
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\StructureMap.Net4.pdb
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\StructureMap.Web.pdb
@@ -80,6 +85,52 @@ F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularD
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\System.Web.Http.WebHost.xml
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\EntityFramework.xml
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\bin\Newtonsoft.Json.xml
-F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\obj\Debug\AngularDemo.APIServices.csprojResolveAssemblyReference.cache
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\obj\Debug\AngularDemo.APIServices.dll
 F:\.net practicall programs\ValueMomentum\GitRepo-master\GitRepo-master\AngularDemo\AngularDemo.APIServices\obj\Debug\AngularDemo.APIServices.pdb
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\obj\Debug\AngularDemo.APIServices.csprojResolveAssemblyReference.cache
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.APIServices.dll.config
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.APIServices.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.APIServices.pdb
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.Data.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.Entities.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.Shared.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\Autofac.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\Autofac.Integration.WebApi.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\AutoMapper.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\PostSharp.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\Services.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\StructureMap.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\StructureMap.Net4.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\StructureMap.Web.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\System.Net.Http.Formatting.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\System.Web.Http.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\System.Web.Http.WebHost.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\WebActivatorEx.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\EntityFramework.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\Newtonsoft.Json.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.Data.pdb
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.Entities.pdb
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.Shared.pdb
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\Services.pdb
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\Autofac.xml
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\Autofac.Integration.WebApi.xml
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\AutoMapper.xml
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\PostSharp.xml
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\StructureMap.pdb
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\StructureMap.Net4.pdb
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\StructureMap.Web.pdb
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\System.Net.Http.Formatting.xml
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\System.Web.Http.xml
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\System.Web.Http.WebHost.xml
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\EntityFramework.xml
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\Newtonsoft.Json.xml
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\obj\Debug\AngularDemo.APIServices.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\obj\Debug\AngularDemo.APIServices.pdb
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\AngularDemo.APIServices.pssym
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\obj\Debug\AngularDemo.APIServices.dll.postsharp
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\log4net.dll
+D:\Projects\Demo-master\Demo-master\AngularDemo\AngularDemo.APIServices\bin\log4net.xml

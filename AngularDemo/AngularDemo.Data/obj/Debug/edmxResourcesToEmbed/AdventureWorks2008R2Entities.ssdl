@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="AdventureWorks2008R2Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema Namespace="AdventureWorks2012Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
   <EntityType Name="Department">
     <Key>
       <PropertyRef Name="DepartmentID" />
@@ -10,7 +10,7 @@
     <Property Name="ModifiedDate" Type="datetime" Nullable="false" />
   </EntityType>
   <!--Errors Found During Generation:
-warning 6005: The data type 'hierarchyid' is currently not supported for the target Entity Framework version; the column 'AdventureWorks2008R2.HumanResources.Employee' in the table 'OrganizationNode' was excluded.-->
+warning 6005: The data type 'hierarchyid' is currently not supported for the target Entity Framework version; the column 'AdventureWorks2012.HumanResources.Employee' in the table 'OrganizationNode' was excluded.-->
   <EntityType Name="Employee">
     <Key>
       <PropertyRef Name="BusinessEntityID" />
@@ -445,7 +445,7 @@ warning 6005: The data type 'hierarchyid' is currently not supported for the tar
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="AdventureWorks2008R2ModelStoreContainer">
+  <EntityContainer Name="AdventureWorks2012ModelStoreContainer">
     <EntitySet Name="Department" EntityType="Self.Department" Schema="HumanResources" store:Type="Tables" />
     <EntitySet Name="Employee" EntityType="Self.Employee" Schema="HumanResources" store:Type="Tables" />
     <EntitySet Name="EmployeeDepartmentHistory" EntityType="Self.EmployeeDepartmentHistory" Schema="HumanResources" store:Type="Tables" />

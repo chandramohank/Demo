@@ -9,9 +9,9 @@ namespace AngularDemo.Data.Repositories
 {
     public class UnitOfWork : IUnitOfWork
     {
-        private AdventureWorks2008R2Entities dbContext;
+        private AdventureWorks2012Entities dbContext;
         private readonly IDatabaseFactory dbFactory;
-        protected AdventureWorks2008R2Entities DbContext
+        protected AdventureWorks2012Entities DbContext
         {
             get
             {
